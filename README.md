@@ -9,7 +9,7 @@ Create a virtual env and activate it.
 
 Clone the project
 <pre>
-git clone https://github.com/peterwade153/properties.git
+git clone https://github.com/peterwade153/house-bob.git
 </pre>
 
 Create a Postgres Database.
