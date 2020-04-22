@@ -1,7 +1,10 @@
 # house-bob
 
-This is a Django application which uses a scrapy spider to pull properties data .i.e houses and offices available for rent in Kampala and neighbouring districts.
+### Description
+A Django, Scrapy application which pulls properties data .i.e houses and offices available for rent in Kampala and neighbouring districts.
 The Scraped data containing property price, location, district, bedrooms, bathrooms, status whether its available for rent or sale and agent details is then saved in a Postgres database.
+
+Its uses Django 3.0 and Scrapy 2.0
 
 ### Installation
 
