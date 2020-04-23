@@ -1,5 +1,7 @@
 # house-bob
 
+[![Build Status](https://travis-ci.org/peterwade153/house-bob.svg?branch=master)](https://travis-ci.org/peterwade153/house-bob)
+
 ### Description
 A Django, Scrapy application which pulls properties data .i.e houses and offices available for rent in Kampala and neighbouring districts.
 The Scraped data containing property price, location, district, bedrooms, bathrooms, status whether its available for rent or sale and agent details is then saved in a Postgres database.
@@ -52,6 +54,11 @@ Visit `127.0.0.1/admin` and login with the superuser account credentials, create
 
 To view dashboard
 Visit `127.0.0.1` after starting the server.
+
+To run tests
+<pre>
+make test
+</pre>
 
 
 Developer :- Peter, reach him at `peterwade153@gmail.com`.
