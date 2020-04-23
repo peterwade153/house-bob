@@ -22,7 +22,6 @@ Create a `.env` file from the `.env.example` and replace with the actual values.
 
 
 Install Dependencies.
-
 <pre>
 pip install requirements.txt
 </pre>
@@ -30,23 +29,23 @@ pip install requirements.txt
 Run migrations with the command below
 
 <pre>
-python manage.py migrate
+make migrate
 </pre>
 
 Create a superuser to access to the admin page, run the command to register.
 <pre>
-python manage.py createsuperuser
+make superuser
 </pre>
 
 To crawl properties with the command below
 
 <pre>
-python manage.py crawl
+make crawl
 </pre>
 
 To view the crawled properties, run the server
 <pre>
-python manage.py runserver
+make start
 </pre>
 
 Visit `127.0.0.1/admin` and login with the superuser account credentials, created earlier. Properties can also be added / removed from here
