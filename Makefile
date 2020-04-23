@@ -12,3 +12,6 @@ superuser:
 
 crawl:
 	python3 manage.py crawl
+
+test:
+	python3 manage.py test
