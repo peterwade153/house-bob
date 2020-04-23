@@ -49,7 +49,10 @@ To view the crawled properties, run the server
 python manage.py runserver
 </pre>
 
-Visit `127.0.0.1/admin` and login with the superuser account credentials, created earlier
+Visit `127.0.0.1/admin` and login with the superuser account credentials, created earlier. Properties can also be added / removed from here
+
+To view dashboard
+Visit `127.0.0.1` after starting the server.
 
 
 Developer :- Peter, reach him at `peterwade153@gmail.com`.
