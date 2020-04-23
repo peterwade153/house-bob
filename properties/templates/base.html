@@ -7,6 +7,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        <!-- custom css -->
         <link rel="stylesheet" href="{% static 'properties/css/styles.css' %}">
 
         <!-- title -->
@@ -21,18 +24,31 @@
                     <img src="{% static 'properties/images/bob-logo.png' %}" width="60" height="60" class="d-inline-block align-middle" alt="">
                     Bob Properties
                 </a>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Location" aria-label="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0 mr-2" type="submit">Search</button>
+                  </form>
             </nav>
 
             <!-- content -->
             <div class="row">
                 <nav class="col-md-2 d-none d-md-block bg-light sidebar px-4 my-4">
                     <div class="sidebar-sticky">
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#"> Dashboard</a>
+                        <!-- side bar -->
+                        <ul class="nav flex-column nav-pills nav-fill">
+                            <li class="nav-item pb-2">
+                                <a class="nav-link active bg-dark" href="#">Dashboard
+                                    <span style="font-size: 18px">
+                                        <i class="fas fa-columns px-1"></i>
+                                    </span>
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#"> Reports</a>
+                            <li class="nav-item pb-2">
+                                <a class="nav-link active bg-dark" href="#">Reports
+                                    <span style="font-size: 18px">
+                                        <i class="fas fa-archive pl-4 pr-2"></i>
+                                    </span>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -45,11 +61,10 @@
                 </main>
             </div>
 
-
             <!-- footer -->
             <footer class="fixed-bottom">
-                <div class="d-flex justify-content-center bg-dark">
-                    <p class="text-center text-white">@Copyright 2020 PeterWade153</p>
+                <div class="d-flex justify-content-center bg-dark ">
+                    <p class="text-center text-white mt-2">@Copyright 2020 PeterWade153</p>
                 </div>
             </footer>
         </div>
