@@ -11,10 +11,11 @@ services:
   - postgresql
 
 before_script:
-  - psql -c "CREATE DATABASE test;" -U postgres
+  - psql -c "CREATE DATABASE test_db;" -U postgres
+  - psql -c "CREATE USER test_user WITH PASSWORD 'test_user';" -U postgres
 
 env:
-  - SECRET_KEY=this-should-be-secret
+  - SECRET_KEY=this-should-be-secret DATABASE_NAME=test_db DATABASE_USER=test_user DATABASE_PASSWORD=test_user DATABASE_HOST=localhost DATABASE_PORT=5432
 
 script:
   - python manage.py test
