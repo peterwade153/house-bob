@@ -15,3 +15,6 @@ crawl:
 
 test:
 	python3 manage.py test
+
+shell:
+	python3 manage.py shell
