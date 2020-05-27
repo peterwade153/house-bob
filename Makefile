@@ -18,3 +18,10 @@ test:
 
 shell:
 	python3 manage.py shell
+
+celery-beat:
+	celery -A main beat -l info
+
+celery-worker:
+	celery -A main worker -l info
+
