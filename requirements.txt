@@ -1,7 +1,9 @@
+celery==4.4.2
 Django==3.0.5
 Scrapy==2.0.1
 scrapy-djangoitem==1.1.1
 django-phone-field==1.8.0
 django-environ==0.4.5
 psycopg2-binary==2.8.5
+redis==3.5.2
 word2number==1.1
