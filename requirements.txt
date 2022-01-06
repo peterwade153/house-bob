@@ -1,4 +1,4 @@
-celery==4.4.2
+celery==5.2.2
 Django==3.0.7
 Scrapy==2.0.1
 scrapy-djangoitem==1.1.1
